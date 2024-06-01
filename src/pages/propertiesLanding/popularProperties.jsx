@@ -7,7 +7,7 @@ const PopularProperties = () => {
 
       <div className="container-fluid d-flex gap-2">
         <PropertyCard />
-        <PropertyCard />
+        <PropertyCard isNew={true} />
         <PropertyCard />
         <PropertyCard />
       </div>
