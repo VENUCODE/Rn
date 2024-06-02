@@ -1,4 +1,4 @@
-import { Divider, Grid, Slider, Typography } from "@mui/material";
+import { Grid, Slider } from "@mui/material";
 
 const filters = [
   {
@@ -65,13 +65,13 @@ const JobFilters = () => {
                         className="d-flex flex-row justify-content-start align-items-center gap-2 pt-1"
                       >
                         <input
-                          className=""
+                          className="bg-transparent fill"
                           type="checkbox"
                           color="dark"
                           id={option.replace(/\s+/g, "")}
                         />
                         <label
-                          className="poppins-light "
+                          className="poppins-light text-capitalize"
                           style={{ fontSize: "12px" }}
                           htmlFor={option.replace(/\s+/g, "")}
                         >

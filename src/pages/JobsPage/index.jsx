@@ -3,6 +3,7 @@ import JobFilters from "./jobFilter";
 import "bootstrap/dist/css/bootstrap.min.css";
 import JobList from "./JobList";
 import "./jobStyles.css";
+import JobsThumbnail from "./JobsThumbnail";
 const JobListingPage = () => {
   return (
     <div className="container px-1">
@@ -10,11 +11,11 @@ const JobListingPage = () => {
         <Grid item xs={2}>
           <JobFilters />
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={7}>
           <JobList />
         </Grid>
-        <Grid item xs={2}>
-          Hello
+        <Grid item xs={3}>
+          <JobsThumbnail />
         </Grid>
       </Grid>
     </div>
