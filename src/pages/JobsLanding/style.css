@@ -1,0 +1,77 @@
+@import url("../../common.css");
+.job-category {
+  background-color: var(--jobcardbg);
+  color: black;
+  border-radius: 0.4rem;
+  width: 200px;
+  height: 175px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.job-category .title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.job-category .subtitle {
+  font-size: 14px;
+  color: var(--jobcard-subtitle);
+}
+
+/* job post clases */
+.job-post {
+  display: flex;
+  width: 350px;
+  height: 161px;
+  background-color: var(--jobcardbg);
+  padding: 1rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+}
+
+.image {
+  flex-shrink: 0;
+}
+
+.image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 0.2rem;
+}
+
+.content {
+  margin-left: 1rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.job-title {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.company-name,
+.job-location,
+.job-experience,
+.time-ago {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #040404;
+  margin: 0.2rem 0;
+}
+
+.time-ago {
+  display: flex;
+  font-size: 12px;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}

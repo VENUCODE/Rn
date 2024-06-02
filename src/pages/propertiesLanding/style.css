@@ -1,0 +1,95 @@
+@import url("../../common.css");
+/* Property landing page styles */
+.p-card {
+  width: 360px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  padding: 0;
+  background: var(--jobcardbg);
+  position: relative;
+  /* overflow: hidden; */
+}
+.new-arrival {
+  height: 50px;
+}
+.new-arrival > div {
+  position: absolute;
+  top: 10px;
+  background-color: #ef3b44;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.p-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.p-name {
+  font-size: 24px;
+}
+.p-price {
+  font-size: 16px;
+}
+
+.p-number {
+  border-top: 2px dashed rgb(164, 164, 164);
+  position: relative;
+}
+.p-number::before,
+.p-number::after {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 1rem;
+  background-color: white;
+}
+.p-number::before {
+  transform: translateY(-10px) translateX(-10px);
+  top: 0;
+  left: 0;
+}
+.p-number::after {
+  transform: translateY(-10px) translateX(10px);
+
+  top: 0;
+  right: 0;
+}
+.view-number {
+  text-decoration: none;
+  color: white;
+  background-color: #225770;
+}
+.text-hide {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* property category styles */
+.p-category-card {
+  height: 320px;
+  width: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #e2d4a6;
+}
+.p-category-name-container {
+  height: auto;
+  flex-grow: 1;
+  color: #023572;
+  white-space: wrap;
+  text-overflow: ellipsis;
+}
+.p-category-img-container {
+  width: 100%;
+  flex-grow: 1;
+}
+.p-category-img-container img {
+  width: 100%;
+  height: 100%;
+}

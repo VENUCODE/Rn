@@ -1,6 +1,5 @@
 import { Grid } from "@mui/material";
 import JobFilters from "./jobFilter";
-import "bootstrap/dist/css/bootstrap.min.css";
 import JobList from "./JobList";
 import "./jobStyles.css";
 import JobsThumbnail from "./JobsThumbnail";

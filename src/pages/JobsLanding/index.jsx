@@ -1,6 +1,7 @@
 import JobCategoryList from "./JobCategoryList";
 import JobPostList from "./JobPostList";
-
+import "./style.css";
+import "../../common.css";
 const JobsLanding = () => {
   return (
     <div className="container d-flex flex-column gap-5">
