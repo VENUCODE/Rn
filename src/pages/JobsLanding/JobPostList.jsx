@@ -1,9 +1,9 @@
 import JobPost from "./Jobpost";
-const JobPostList = () => {
+const JobPostList = ({ title = "Recently added jobs" }) => {
   return (
     <div>
-      <h4 className="poppins-semibold">Recently added jobs</h4>
-      <div className="container-fluid gap-4">
+      <h4 className="poppins-semibold">{title}</h4>
+      <div className="scroll-container gap-4">
         <JobPost />
         <JobPost />
         <JobPost />

@@ -11,6 +11,9 @@ const JobsLanding = () => {
       <div>
         <JobPostList />
       </div>
+      <div>
+        <JobPostList title="Suggestions for you" />
+      </div>
     </div>
   );
 };

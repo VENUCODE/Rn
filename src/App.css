@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
 }
 
-.container-fluid {
+.scroll-container {
   display: flex;
   overflow-x: auto;
   width: 100%;

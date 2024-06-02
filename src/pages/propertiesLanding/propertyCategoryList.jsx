@@ -5,7 +5,7 @@ const PropertyCategoryList = () => {
     <div>
       <h4 className="poppins-semibold mb-4 pt-3">Category</h4>
 
-      <div className="container-fluid d-flex gap-2">
+      <div className="scroll-container d-flex gap-2">
         <PropertyCategory />
         <PropertyCategory />
         <PropertyCategory />

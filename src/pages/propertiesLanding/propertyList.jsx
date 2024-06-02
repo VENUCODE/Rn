@@ -5,7 +5,7 @@ const PropertyList = () => {
     <div>
       <h4 className="poppins-semibold mb-4 pt-3">Recently added Properties</h4>
 
-      <div className="container-fluid d-flex gap-2">
+      <div className="scroll-container d-flex gap-2">
         <PropertyCard isNew={true} />
         <PropertyCard isNew={true} />
         <PropertyCard isNew={true} />
