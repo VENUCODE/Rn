@@ -21,7 +21,10 @@ const PropertyCard = () => {
               <span>
                 {" "}
                 <FaRegHeart className="text-color c-pointer me-2" size={20} />
-                <IoShareSocialSharp className="text-color c-pointer" size={20} />
+                <IoShareSocialSharp
+                  className="text-color c-pointer"
+                  size={20}
+                />
               </span>
             </p>
             <p className="card-text poppins-regular fs-small text-pale my-0">
@@ -91,7 +94,10 @@ const PropertyCard = () => {
               </div>
               <BsPersonSquare className="text-color fs-medium" />
             </div>
-            <button className="btn rounded-0 bg-dark poppins-medium py-1 px-2 fs-medium text-white my-0">
+            <button
+              className="btn rounded-0  poppins-medium py-1 px-2 fs-medium text-white my-0"
+              style={{ background: "#225770" }}
+            >
               Connect Now
             </button>
           </div>

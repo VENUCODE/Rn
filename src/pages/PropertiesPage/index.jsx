@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
 import "./style.css";
 import PropertyList from "./PropertyList";
+import ImageCarousel from "../../components/ImageCarousel";
 const PropertiesPage = () => {
   return (
     <div>
@@ -9,7 +10,9 @@ const PropertiesPage = () => {
           <PropertyList />
         </Grid>
         <Grid item xs={4}></Grid>
-        <Grid item xs={12}></Grid>
+        <Grid item xs={12}>
+          <ImageCarousel />
+        </Grid>
       </Grid>
     </div>
   );
