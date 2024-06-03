@@ -1,4 +1,14 @@
 @import url("../../common.css");
+
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.equal-height > div {
+  flex-grow: 1;
+}
 .text-small {
   font-size: 0.8rem !important;
 }
@@ -23,14 +33,28 @@
 .bg-main {
   background-color: #225770;
 }
+.bg-title-gradient {
+  background: linear-gradient(90deg, #ff1212, #225770);
+  color: white;
+}
+.line-grad::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #ff1212, #225770);
+}
 .property-card {
   background: rgb(255, 255, 255);
 }
+.carousel-container {
+  background: linear-gradient(0deg, transparent, #dfdfdf, transparent);
+}
 
 .vertical-scroll {
-  max-height: 500px;
+  max-height: 900px;
   overflow-y: auto;
-  scroll-behaviour: smooth;
 }
 
 /* Custom scrollbar styles */
